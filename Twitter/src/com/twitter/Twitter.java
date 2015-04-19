@@ -3,7 +3,11 @@ package com.twitter;
 import java.util.LinkedList;
 
 import com.twiter.poruke.TwitterPoruka;
-
+/**
+ * Klasa predstavlja Twitter platformu na kojoj korisnici pisu twitter poruke.
+ * @author lazar
+ *
+ */
 public class Twitter {
 
 		/**
@@ -40,6 +44,7 @@ public class Twitter {
 		 * @param maxBroj
 		 * @param tag
 		 * @return niz ciji su elementi TwitterPoruke koje sadrze tag, koji je unet kao ulazni parametar metode.
+		 * @throws java.RuntimeException ako je uneti tag null ili prazan String.
 		 */
 		public TwitterPoruka[] vratiPoruke(int maxBroj, String tag) {
 			if (tag==null || tag.isEmpty())

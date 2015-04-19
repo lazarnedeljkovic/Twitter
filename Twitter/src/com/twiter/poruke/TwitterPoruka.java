@@ -1,5 +1,9 @@
 package com.twiter.poruke;
-
+/**
+ * Klasa predstavlja jednu poruku na Twitteru.
+ * @author lazar
+ *
+ */
 public class TwitterPoruka {
 	
 	/**
